@@ -1,14 +1,8 @@
 // import components
 
-import {
-  Hero,
-  About,
-  How,
-  Faq,
-  Testimonials,
-  Footer,
-  Copyright
-} from '../components';
+import { Hero, How, Faq, Testimonials, Footer, Copyright } from '../components';
+import AboutComp from '../components/AboutComp';
+import HowComp from '../components/HowComp';
 
 // import data
 import {
@@ -38,8 +32,8 @@ const Home = ({
         headerData={headerData}
         navData={navData}
       />
-      <About aboutData={aboutData} />
-      <How howData={howData} />
+      <AboutComp aboutData={aboutData} />
+      <HowComp howData={howData} />
       <Faq faqData={faqData} />
       <Testimonials testimonialData={testimonialData} />
       <Footer footerData={footerData} />

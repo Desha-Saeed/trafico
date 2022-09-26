@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 //import variants
 import { fadeInUp, fadeInDown, staggerTextContainer } from '../variants';
 
-const About = ({ aboutData }) => {
+const AboutComp = ({ aboutData }) => {
   //destructure about data
   const { title, subtitle, text, boyImg } = aboutData;
 
@@ -46,4 +46,4 @@ const About = ({ aboutData }) => {
   );
 };
 
-export default About;
+export default AboutComp;

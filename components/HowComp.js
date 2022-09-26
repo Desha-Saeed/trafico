@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 //import variants for animations
 import { fadeInRight, fadeInLeft, staggerTextContainer } from '../variants';
-const How = ({ howData }) => {
+const HowComp = ({ howData }) => {
   //destructure how data
   const { title, subtitle, girlImg } = howData;
 
@@ -46,4 +46,4 @@ const How = ({ howData }) => {
   );
 };
 
-export default How;
+export default HowComp;
